@@ -64,9 +64,7 @@ const ProjetosSection = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.06 }}
-                className={`overflow-hidden rounded-sm cursor-pointer group ${
-                  i < 2 ? "md:col-span-1 lg:col-span-2 aspect-video" : "aspect-square"
-                }`}
+                className="aspect-square overflow-hidden rounded-sm cursor-pointer group"
                 onClick={() => setSelected(i)}
               >
                 <img
