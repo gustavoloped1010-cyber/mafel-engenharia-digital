@@ -10,6 +10,8 @@ import projeto7 from "@/assets/projeto-7.jpg";
 import projeto8 from "@/assets/projeto-8.jpg";
 import projeto9 from "@/assets/projeto-9.jpg";
 import projeto10 from "@/assets/projeto-10.jpg";
+import projeto11 from "@/assets/projeto-11.jpg";
+import projeto12 from "@/assets/projeto-12.jpg";
 
 const projetos = [
   { src: projeto1, alt: "Fachada moderna com garagem" },
@@ -22,6 +24,8 @@ const projetos = [
   { src: projeto8, alt: "Cozinha planejada" },
   { src: projeto9, alt: "Entrega de chaves Mafel" },
   { src: projeto10, alt: "Entrega de imóvel Mafel" },
+  { src: projeto11, alt: "Edifício residencial" },
+  { src: projeto12, alt: "Fachada moderna com garagem dupla" },
 ];
 
 const ProjetosSection = () => {
