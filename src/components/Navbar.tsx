@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logoImg from "@/assets/logo-mafel-full.jpg";
+import logoImg from "@/assets/logo-mafel-full.png";
 
 const links = [
   { label: "Sobre", href: "#sobre" },
