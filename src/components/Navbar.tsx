@@ -31,7 +31,7 @@ const Navbar = () => {
             <Instagram size={20} />
           </a>
           <a href="https://wa.me/5587981532650" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-foreground transition-colors">
-            <Phone size={20} />
+            <MessageCircle size={20} />
           </a>
           <button onClick={() => setOpen(!open)} className="text-foreground">
             {open ? <X size={24} /> : <Menu size={24} />}
