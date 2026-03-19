@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Instagram, Phone } from "lucide-react";
+import { Menu, X, Instagram, MessageCircle } from "lucide-react";
 import logoImg from "@/assets/logo-mafel-full.png";
 
 const links = [
