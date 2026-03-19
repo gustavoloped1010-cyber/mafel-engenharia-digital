@@ -26,9 +26,17 @@ const Navbar = () => {
             </a>
           ))}
         </div>
-        <button onClick={() => setOpen(!open)} className="md:hidden text-foreground">
-          {open ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        <div className="flex md:hidden items-center gap-4">
+          <a href="https://instagram.com/nossomafel" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-foreground transition-colors">
+            <Instagram size={20} />
+          </a>
+          <a href="https://wa.me/5587981532650" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-foreground transition-colors">
+            <Phone size={20} />
+          </a>
+          <button onClick={() => setOpen(!open)} className="text-foreground">
+            {open ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </div>
       {open && (
         <div className="md:hidden bg-background border-b border-border px-6 pb-4 space-y-3">
